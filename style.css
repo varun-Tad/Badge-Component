@@ -1,0 +1,141 @@
+*{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box
+}
+
+body{
+    font-family: sans-serif;
+}
+
+#heading{
+    text-align: center;
+    margin-top:30px;
+}
+
+
+
+/* Text with a badge */
+
+
+#text-wa-badge{
+    margin-left:600px;
+    margin-top:100px;
+}
+
+#text-wa-badge #num{
+    color:white;
+    background-color: #1f4af2;
+    width:20px;
+    height:20px;
+    border-radius: 50%;
+    padding-left:5px;
+    padding-top:2px;
+    position: relative;
+    left:120px;
+    bottom:30px;
+}
+
+
+
+/* Text with a large badge */
+#text-wal-badge{
+    margin-left:600px;
+    margin-top:100px;
+}
+
+#text-wal-badge #num{
+    color:white;
+    background-color: #1f4af2;
+    width:30px;
+    height:30px;
+    border-radius: 50%;
+    padding-left:10px;
+    padding-top:6px;
+    position: relative;
+    left:130px;
+    bottom:35px;
+}
+
+
+
+/* Button with a badge on the left */
+
+
+
+#button-badge{
+    margin-left:650px;
+    margin-top:100px;
+  
+}
+
+
+#badge-btn{
+    color:white;
+    background-color:#1f4af2 ;
+    padding:10px 15px 10px 15px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    cursor: pointer;
+}
+
+
+#button-badge #num{
+    background-color: #ff4081;
+    width:20px;
+    height: 20px;
+    border-radius: 50%;
+    color: white;
+    padding-left:5px;
+    padding-top:1px;
+    position:relative;
+    bottom:45px;
+    right:4px;
+
+}
+
+
+
+/* Button toggles badge visibility */
+
+
+#button-hide-badge
+{
+    margin-left:650px;
+    margin-top:100px;  
+}
+
+
+
+#badge-hide-btn{
+    color:black;
+    background-color:white;
+    padding:10px 15px 10px 15px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+#button-hide-badge #btn-num{
+    background-color:#1f4af2;
+    width:20px;
+    height: 20px;
+    border-radius: 50%;
+    color: white;
+    padding-left:5px;
+    padding-top:1px;
+    position:relative;
+    bottom:45px;
+    left:45px;
+   
+}
+
+.hide{
+    display:none
+}
